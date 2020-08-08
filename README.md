@@ -9,3 +9,5 @@
 ### 3. Запустить проект в браузере: npm start
 
 Порты по дефолту: клиент - 3000, сервер - 3010
+
+![me](https://github.com/ProtonSElijah/testSCDI/blob/master/testscdi.gif)
