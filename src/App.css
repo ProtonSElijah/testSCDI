@@ -1,0 +1,61 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Main {
+
+}
+
+.main input {
+    width: 68vw;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: calc(12px + 2vmin);
+}
+
+.main input::placeholder {
+    color: #666666;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputField_dropDown {
+    width: calc(100% - 4px);
+    margin-left: 2px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    overflow-y: scroll;
+    max-height: 25vh;
+}
+
+.inputField_dropDown p{
+    padding-left: 8px;
+}
+
+.inputField_dropDown p:hover {
+    background-color: #666666;
+    cursor: pointer;
+    color: white;
+}
